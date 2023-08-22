@@ -1,0 +1,42 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 4px 0;
+    background-color: rgb(0, 154, 58);
+    color: rgb(255, 255, 255);
+    
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1 {
+    margin-left: 16px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    
+
+}
